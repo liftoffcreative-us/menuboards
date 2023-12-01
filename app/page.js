@@ -7,7 +7,7 @@ export default function Home() {
       <div className='w-full h-[30vh] flex'>
         <div className='w-1/3 flex items-center'><Image src={logo} className='pl-16 w-2/3'/></div>
         <div className=' w-2/12 flex flex-col text-tacoblue pt-16 items-center'>
-          <h2 className='text-7xl mb-4'>TACO</h2>
+          <h2 className='text-7xl mb-4'>TACO!</h2>
           <h3 className='text-3xl text-center'>Flour, Whole Wheat or Gluten Free Tortilla</h3>
         </div>
         <div className=' w-3/12 flex flex-col text-tacopink pt-16 items-center'>
