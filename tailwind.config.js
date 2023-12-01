@@ -12,6 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'tacoblue': '#00bdb5',
+        'tacopurple': '#63409a',
+        'tacopink': '#ff0090',
+        'tacoorange': '#ff8309',
+        'tacogreen': '#53c02f',
+        
+      },
     },
   },
   plugins: [],

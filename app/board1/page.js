@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import logo from '../public/logo.png'
+import logo from '../../public/logo.png'
 
-export default function Home() {
+export default function Board1() {
   return (
     <main className="flex flex-col min-h-screen min-w-screen bg-white">
       <div className='w-full h-[30vh] flex'>
