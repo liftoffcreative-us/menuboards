@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </div>
         <div className='bg-gray-200 w-full h-[14.3%] flex items-center '>
-          <div className='w-1/3 flex items-center '><h4 className='pl-12 text-tacopurple text-4xl w-1/2 font-bold'>VERY VEGGIE</h4><span className=' text-sm w-1/2 font-normal text-tacopurple'>Avocado, Pico de Gallo, Black Olives, Taco Sisters Lettuce Mix</span></div>
+          <div className='w-1/3 flex items-center '><h4 className='pl-12 text-tacopurple text-4xl w-1/2 font-bold'>VERY VEGGIE</h4><span className=' text-sm w-1/2 font-bold text-tacopurple'>Avocado, Pico de Gallo, Black Olives, Taco Sisters Lettuce Mix</span></div>
           <h4 className='text-tacoblue text-4xl w-1/6 font-bold text-center'>$5.50</h4>
           <h4 className='text-tacopink text-4xl w-1/4 font-bold text-center'>$6.50</h4>
           <div className='w-3/12 flex text-tacogreen items-center justify-center'>
