@@ -5,6 +5,7 @@ import eatfit from '../../public/eatfit.png'
 export default function Board1() {
   return (
     <main className="flex min-h-screen min-w-screen bg-white">
+      {/* first section with logo and types of items */}
       <div className='w-1/3 h-screen '>
         <div className='flex flex-col w-full h-1/4 '>
             <div className='flex h-full items-center'><Image src={logo} className='w-1/2 pl-4' /></div>
@@ -48,6 +49,7 @@ export default function Board1() {
           </div>
         </div>
       </div>
+      {/* second section with protein options and prices */}
       <div className='flex flex-col w-1/3  h-screen '>
         <div className='flex w-full h-1/4 items-center justify-center'>
           <div className=' w-1/2 h-full '>
@@ -56,7 +58,7 @@ export default function Board1() {
                   <h2 className='w-full text-4xl text-tacopurple text-center'>Smoked Chicken,</h2>
                   <h2 className='w-full text-4xl text-tacopurple text-center'>Smoked Pork,</h2>
                   <h2 className='w-full text-4xl text-tacopurple text-center'>Ground Beef,</h2>
-                  <h2 className='w-full text-4xl text-tacopurple text-center'>Very Veggie</h2>
+                  <h2 className='w-full text-4xl text-tacopurple text-center'>Very Veggie*</h2>
                 </div>
             </div>
           </div>
@@ -118,6 +120,7 @@ export default function Board1() {
         
       </div>
 
+      {/* third section with Eat Fit options, choices and toppings */}
       <div className='h-screen w-1/3'>
         <div className='w-full h-1/4 flex flex-col items-center justify center '>
           <div className='w-full h-2/3 flex items-center justify-center'>
