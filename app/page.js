@@ -83,7 +83,34 @@ export default function Home() {
             <h4 className='text-4xl text-center font-bold'><span className='pl-12 pr-2 text-3xl font-normal'>Half</span>$8.55</h4>
           </div>
         </div>
+      </div>
+      <div className='w-full h-[30vh] flex'>
+        <div className='w-1/3 '></div>
+        <div className=' w-2/12 flex flex-col text-tacoblue pt-4 items-center'>
+          <h2 className='text-2xl font-bold'>CHOOSE</h2>
+          <h3 className='text-2xl text-center'>Pico de Gallo</h3>
+          <h3 className='text-2xl text-center'>or Diced Tomatoes</h3>
+          <h2 className='text-2xl font-bold pt-4'>COMES WITH</h2>
+          <h3 className='text-2xl text-center'>Sisters Secret Sauce and Taco Sisters Lettuce Mix</h3> 
+        </div>
 
+        <div className=' w-1/4 flex flex-col text-tacopink pt-4 items-center'>
+          <h2 className='text-2xl font-bold'>CHOOSE</h2>
+          <h3 className='text-2xl text-center'>Refried Beans</h3>
+          <h3 className='text-2xl text-center'>Black Beans or Both</h3>
+          <h2 className='text-2xl font-bold pt-4'>COMES WITH</h2>
+          <h3 className='text-2xl text-center'>Cheese and Green Onions</h3>
+        </div>
+        <div className=' w-1/4 flex flex-col text-tacogreen pt-4 items-center'>
+          <h2 className='text-2xl font-bold'>CHOOSE DRESSING</h2>
+          <h3 className='px-4 text-2xl text-center'>Soy-Ginger, Vinaigrette, Jalapeno Ranch, Bleu Cheese</h3>
+          
+          <h2 className='text-2xl font-bold pt-4'>COMES WITH</h2>
+          <h3 className='text-2xl text-center px-4'>Avocado, Italian Cheese Mix, Black Olives, Roma Tomatoes </h3>
+          <h3 className='text-2xl text-center px-4'>& Green Onions </h3>
+        </div>
+
+        
       </div>
     </main>
   )
