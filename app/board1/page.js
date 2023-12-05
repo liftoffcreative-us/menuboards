@@ -42,8 +42,9 @@ export default function Board1() {
               </div>
           </div>
 
-          <div className='flex flex-col w-full h-1/5  bg-tacopink '>
-              <div className='flex h-full items-center'><h2 className='pl-12 text-5xl text-white'>Little Sisters</h2></div>
+          <div className='flex items-center w-[110%] h-1/5  bg-tacopink '>
+              <div className='flex h-full w-8/12 items-center'><h2 className='pl-12 text-5xl text-white'>Little Sisters</h2></div>
+              <div className='flex h-full w-1/2 items-center z-50'><h2 className='text-lg text-white text-center'>Kid-sized scoop of meat, cheese and a plain, soft tortilla designed for your little one to roll on their own. Or make it a taco</h2></div>
           </div>
         </div>
       </div>
@@ -102,8 +103,16 @@ export default function Board1() {
             <div className='flex h-full items-center justify-center w-1/2'><h2 className=' text-6xl text-tacoorange'>$12.40</h2></div>
           </div>
 
-          <div className='flex flex-col w-full h-1/5 bg-tacopink '>
-              <div className='flex h-full items-center'></div>
+          <div className='flex flex-col justify-center w-full h-1/5 bg-tacopink '>
+            <div className='flex my-2 items-center justify-center w-full ml-12 '>
+              <h2 className='w-[70%] pl-12 text-2xl  text-white '>Fish, Shrimp, Brisket</h2>
+              <h2 className='w-[30%] pr-12 text-2xl text-center text-white '>$5.70</h2>
+            </div>
+
+            <div className='flex  items-center justify-center w-full ml-12 '>
+              <h2 className='w-[70%] pl-12 text-2xl text-white '>Chicken, Pork, Beef, Veggie</h2>
+              <h2 className='w-[30%] pr-12 text-2xl text-center text-white '>$4.65</h2>
+            </div>
           </div>
         </div>
         
@@ -116,9 +125,9 @@ export default function Board1() {
             <div className='w-5/6 h-full flex items-center px-6'><h4 className='text-2xl text-tacopurple'><span className='font-bold'>TACO or HALF SALAD:</span> Smokin' Fish, Smoked Shrimp, Ribeye, Smoked Chicken, Brisket, Very Veggie*</h4></div>
           </div>
           <div className='w-full h-1/3 flex items-center justify-center'>
-            <div className='bg-tacopurple text-2xl text-white py-2 w-5/12 text-center'>Choose One</div>
-            <div className='w-2/12'></div>
-            <div className='bg-tacopurple text-2xl text-white py-2 w-5/12 text-center'>Comes With</div>
+            <div className='w-1/2 h-full flex items-center justify-center'><h4 className='bg-tacopurple text-2xl text-white text-center w-3/4'>Choose One</h4></div>
+            
+            <div className='w-1/2 h-full flex items-center justify-center'><h4 className='bg-tacopurple text-2xl text-white text-center w-3/4'>Choose One</h4></div>
           </div>
         </div>
         <div className='flex flex-col w-full h-3/4 '>
