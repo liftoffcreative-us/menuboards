@@ -127,7 +127,7 @@ export default function Board1() {
           <div className='w-full h-1/3 flex items-center justify-center'>
             <div className='w-1/2 h-full flex items-center justify-center'><h4 className='bg-tacopurple text-2xl text-white text-center w-3/4'>Choose One</h4></div>
             
-            <div className='w-1/2 h-full flex items-center justify-center'><h4 className='bg-tacopurple text-2xl text-white text-center w-3/4'>Choose One</h4></div>
+            <div className='w-1/2 h-full flex items-center justify-center'><h4 className='bg-tacopurple text-2xl text-white text-center w-3/4'>Comes With</h4></div>
           </div>
         </div>
         <div className='flex flex-col w-full h-3/4 '>
