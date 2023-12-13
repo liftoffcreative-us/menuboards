@@ -18,7 +18,7 @@ module.exports = {
         'tacopink': '#ff0090',
         'tacoorange': '#ff8309',
         'tacogreen': '#53c02f',
-        'ezblue': '#154785',
+        'ezblue': '#003768',
         
         
       },
