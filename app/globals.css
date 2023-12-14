@@ -27,7 +27,7 @@ body {
 }
 
 .card {
-  border-radius: 50px;
+  border-radius: 25px;
 background: linear-gradient(145deg, #e6e6e6, #f8f8f8);
 box-shadow:  8px 8px 16px #cacaca,
              -8px -8px 16px #ffffff;
