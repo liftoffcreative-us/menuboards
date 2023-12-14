@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import chips from '../../public/dirtyChips.jpg'
-import eatfit from '../../public/eatfit.png'
+import chips from '../images/dirtyChips.jpg'
+import eatfit from '../images/eatfit.png'
 
-export default function Board1() {
+export default function Board2() {
   return (
     <main className="flex min-h-screen min-w-screen bg-white">
       {/* first section with add ons */}

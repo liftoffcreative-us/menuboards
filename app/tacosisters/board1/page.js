@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import logo from '../../public/logo.png'
-import eatfit from '../../public/eatfit.png'
+import logo from '../images/logo.png'
+import eatfit from '../images/eatfit.png'
 
 export default function Board1() {
   return (
