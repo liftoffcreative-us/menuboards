@@ -8,7 +8,7 @@ export default function Board1() {
       {/* first section with logo and types of items */}
       <div className='w-1/3 h-screen '>
         <div className='flex flex-col w-full h-1/4 '>
-            <div className='flex h-full items-center'><Image src={logo} className='lg:w-1/2 w-2/3 pl-4' /></div>
+            <div className='flex h-full items-center'><Image src={logo} className='lg:w-2/3 w-3/4 pl-6 pt-4' /></div>
         </div>
         <div className='flex flex-col w-full h-3/4'>
           <div className='flex w-full h-1/5  items-center'>
