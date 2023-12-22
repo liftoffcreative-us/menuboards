@@ -11,7 +11,7 @@ export default function Board2() {
             <div className='flex flex-col items-center justify-center w-full h-[35%] bg-tacoorange text-black'>
                 <h2 className='text-3xl lg:text-5xl h-[20%] py-2 lg:py-4'>Add Toppings</h2>
                 <div className='flex w-full h-[80%]'>
-                    <div className='flex flex-col justify-center w-[60%] h-full py-2 pl-4 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center w-[60%] h-full py-2 pl-4 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>Black Bean and Corn Salsa</h3>
                         <h3>Vegetarian Black Beans</h3>
                         <h3>Vegetarian Refried Beans</h3>
@@ -20,7 +20,7 @@ export default function Board2() {
                         <h3>Shredded Cheddar</h3>
 
                     </div>
-                    <div className='flex flex-col justify-center w-1/3 h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center w-[35%] h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>Pico de Gallo</h3>
                         <h3>Diced Tomatoes</h3>
                         <h3>Green Chile Rice</h3>
@@ -35,13 +35,13 @@ export default function Board2() {
             <div className='flex flex-col items-center justify-center w-full h-[30%] bg-tacogreen text-black'>
                 <h2 className='text-3xl h-[20%] pt-2 lg:text-5xl lg:py-4'>Add Sauces</h2>
                 <div className='flex w-full h-[80%]'>
-                    <div className='flex flex-col justify-center w-[60%] h-full pl-4 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center w-[60%] h-full pl-4 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>Sisters Secret Sauce</h3>
                         <h3>Cha Cha Churri</h3>
                         <h3>Freetown Fire</h3>
                         <h3>Soy Ginger</h3>   
                     </div>
-                    <div className='flex flex-col justify-center w-1/3 h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center w-1/3 h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>Jalapeno Ranch</h3>
                         <h3>Chipotle</h3>
                         <h3>Salsa Verde</h3>
@@ -53,7 +53,7 @@ export default function Board2() {
             <div className='flex flex-col items-center justify-center w-full h-[35%] bg-tacoblue text-black'>
                 <h2 className='text-3xl h-[20%] py-2 lg:text-5xl lg:py-4'>Add Extras</h2>
                 <div className='flex w-full h-[80%]'>
-                    <div className='flex flex-col justify-center items-end w-[70%] h-full py-2 pr-4 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center items-end w-[70%] h-full py-2 pr-4 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>Elote</h3>
                         <h3>Toasted Quinoa</h3>
                         <h3>Fresh Avocado or Guacamole</h3>
@@ -62,7 +62,7 @@ export default function Board2() {
                         <h3>Queso Blanco (on the side)</h3>
 
                     </div>
-                    <div className='flex flex-col justify-center w-[30%] h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem]'>
+                    <div className='flex flex-col justify-center w-[30%] h-full py-2 pl-1 text-[.8rem] lg:text-[1.5rem] font-bold'>
                         <h3>$1.05</h3>
                         <h3>MP</h3>
                         <h3>MP</h3>
