@@ -45,7 +45,7 @@ export default function Board1() {
 
           <div className='flex items-center w-[110%] h-1/5  bg-tacopink '>
               <div className='flex h-full w-8/12 items-center'><h2 className='pl-12 text-2xl lg:text-5xl text-white'>Little Sisters</h2></div>
-              <div className='flex h-full w-1/2 items-center z-50'><h2 className='text-[.6em] text-white text-center'>Kid-sized scoop of meat, cheese and a plain, soft tortilla designed for your little one to roll on their own. Or make it a taco</h2></div>
+              <div className='flex h-full w-1/2 items-center z-50'><h2 className='text-[.6em] lg:text-[.9em] text-white text-center'>Kid-sized scoop of meat, cheese and a plain, soft tortilla designed for your little one to roll on their own. Or make it a taco!</h2></div>
           </div>
         </div>
       </div>
